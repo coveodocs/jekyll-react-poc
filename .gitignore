@@ -1,0 +1,6 @@
+dist
+note_modules
+src/.sass-cache
+src/.jekyll-cache
+src/.jekyll-metadata
+node_modules

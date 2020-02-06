@@ -1,0 +1,35 @@
+@import "../../styles/bases";
+
+.button {
+  border-width: $BaseBorderWidth;
+  border-style: solid;
+  padding: $TinySpacingUnit $BaseSpacingUnit;
+  font-size: $SmallFontSize;
+  font-weight: $BoldFontWeight;
+  height: fit-content;
+  &:hover {
+    cursor: pointer;
+  }
+  &:focus {
+    outline: unset;
+  }
+  &.__sm {
+    font-size: $TinyFontSize;
+  }
+  &.__lg {
+    font-size: $LargeFontSize;
+  }
+  &.__colored {
+    color: $White;
+    background-color: $CoveoOrange;
+    border-color: $CoveoOrange;
+    &:hover {
+      background-color: $NeonCarrot;
+    }
+  }
+  &.__outlined {
+    color: $CoveoBlue;
+    background-color: $White;
+    border-color: $CoveoGrey6;
+  }
+}

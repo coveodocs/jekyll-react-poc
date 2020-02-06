@@ -1,0 +1,17 @@
+//--------------------Line Heights----------------------------------------------
+$BaseLineHeight: 1.5;
+$SmallLineHeight: $BaseLineHeight * 0.66;
+$LargeLineHeight: $BaseLineHeight * 1.33;
+
+//--------------------Spacing Units---------------------------------------------
+$BaseSpacingUnit: 20px;
+$TinySpacingUnit: $BaseSpacingUnit * 0.25;
+$SmallSpacingUnit: $BaseSpacingUnit * 0.5;
+$MediumSpacingUnit: $BaseSpacingUnit * 0.75;
+$LargeSpacingUnit: $BaseSpacingUnit * 1.25;
+$HugeSpacingUnit: $BaseSpacingUnit * 1.5;
+
+//--------------------Border Widths---------------------------------------------
+$BaseBorderWidth: 1px;
+$MediumBorderWidth: $BaseBorderWidth * 2;
+$ThickBorderWidth: $BaseBorderWidth * 4;

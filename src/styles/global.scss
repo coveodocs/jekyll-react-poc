@@ -1,0 +1,13 @@
+@import "bases";
+
+html {
+  font-size: $BaseFontSize;
+  font-family: $BaseFontFamily;
+  height: 100%;
+}
+
+body {
+  margin: 0 auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

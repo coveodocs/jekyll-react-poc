@@ -1,0 +1,22 @@
+title: Jekyll/React/Webpack POC
+email: fbeaudoin@coveo.com
+description: >-
+  Jekyll/React/Webpack POC
+baseurl: ""
+url: ""
+source: src
+collections_dir: _collections
+collections:
+  sample-collection:
+    output: true
+    layout: default
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+destination: dist
+exclude:
+- "/components"
+- "/styles"
+- "index.tsx"
