@@ -4,7 +4,7 @@
   "description": "",
   "scripts": {
     "test": "jest",
-    "clean": "rm -rf src/assets && bundle exec jekyll clean && exit",
+    "clean": "rm -rf src/gen/assets && bundle exec jekyll clean && exit",
     "build-components-dev": "npm run clean && npm run test && webpack --mode=development && exit",
     "build-components-prod": "npm run clean && npm run test && webpack --mode=production && exit",
     "serve": "npm run build-components-dev && bundle exec jekyll serve --incremental --watch --verbose && exit",
