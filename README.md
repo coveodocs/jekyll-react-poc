@@ -38,18 +38,18 @@ This will:
 
 - Run UTs:
 
-```text
-npm run test
-```
+  ```text
+  npm run test
+  ```
 
 - Clean all output folders:
 
-```text
-npm run clean
-```
+  ```text
+  npm run clean
+  ```
 
 - Build components and static site for production:
 
-```text
-npm run build
-```
+  ```text
+  npm run build
+  ```
