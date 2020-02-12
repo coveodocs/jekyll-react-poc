@@ -7,7 +7,7 @@ Component source code is written in TypeScript. Sass modules are used for stylin
 ## Requirements
 
 - Ruby 2.6
-- npm 12.13.1
+- node 12.13.1
 
 **Note:** Windows 10 users should run this project using [Windows Subsystem for Linux (WSL)](https://docs.microsoft.com/en-us/windows/wsl/install-win10).
 
